@@ -10,6 +10,10 @@ namespace Weapons
     {
         static void Main(string[] args)
         {
+            Weapon weap = new Weapon();
+
+            weap.Input();
+            weap.Print();
         }
     }
 }
